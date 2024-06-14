@@ -1,12 +1,17 @@
-# ft_printf_mericodes
-ft_printf is a basic implementation of the printf function.
-is has:
-  - %c to print chars
-  - %s to print strings
-  - %p to print a pointer
-  - %d to print decimals
-  - %i to print integers
-  - %u to print unsigned ints
-  - %x to print hexadecimals in lowercase
-  - %X to print hexadecimals in uppercase
-  - %% to print a '%'
+# 42: Ft_Printf
+
+## Description
+
+**ft_printf** is a custom implementation of the printf function in C, providing formatted output. It supports the following conversion specifiers:
+
+- `%c`: Print characters
+- `%s`: Print strings
+- `%p`: Print pointers
+- `%d`: Print signed integers
+- `%i`: Print signed integers
+- `%u`: Print unsigned integers
+- `%x`: Print hexadecimal numbers in lowercase
+- `%X`: Print hexadecimal numbers in uppercase
+- `%%`: Print a percent sign `%`
+
+This project aims to replicate the core functionality of the standard printf function in the C standard library.
